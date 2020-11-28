@@ -20,6 +20,10 @@ const ResourcesSection = styled.div`
     background-color: black;
     color: white;
   }
+  @media only screen and (max-width: 480px){
+    width: 300px;
+    height: 300px;
+  }
 `;
 
 const StyledP = styled.p`
