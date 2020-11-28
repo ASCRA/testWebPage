@@ -148,19 +148,19 @@ const ScaffoldsSection = () => {
 //Created these as seperate elements so that they can be more easly converted if they need to be
 const CustomElementsSection = () => {
   return(
-    <StyledVideo controls loop muted autoPlay src="/videos/DefineCustomEl.mp4"/>
+    <StyledVideo controls loop muted autoPlay src="videos/DefineCustomEl.mp4"/>
   )
 }
 
 const SetCustomValSection = () => {
   return(
-    <StyledVideo controls loop muted autoPlay src="/videos/SetCustomVal.mp4"/>
+    <StyledVideo controls loop muted autoPlay src="videos/SetCustomVal.mp4"/>
   )
 }
 
 const Publish = () => {
   return(
-    <StyledImg src="/images/ShareKoji2.png" />
+    <StyledImg src="images/ShareKoji2.png" />
   )
 }
 
