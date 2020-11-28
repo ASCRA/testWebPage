@@ -16,18 +16,19 @@ const MultiContentSection = styled.div`
 
 const StyledP = styled.p`
     text-align: center;
+    width: 400px;
 `;
 
 
 const MultiContent = () => {
-
     return(
-        <PageSection backColor="#111111" orientation="column">
-            <SectionComponent orientation="row" row>
-            <h1 style={{color: "white", marginTop: 20, textAlign: "center", marginLeft: "5px"}}>Koji for developers</h1>
-            </SectionComponent>
+        <div>
+            
+    <PageSection backColor="#111111" orientation="column">
+        <SectionComponent orientation="row" row>
+                <h1 style={{color: "white", marginTop: 20}}>Koji for developers</h1>
+                </SectionComponent>
             <SectionComponent row>
-
                 <MultiContentSection>
                     <StyledP><b>Make an impact</b><br/>Designers, content creators, brands, and influencers need custom templates. You empower these communities.</StyledP>
                 </MultiContentSection>
@@ -43,7 +44,9 @@ const MultiContent = () => {
                 </MultiContentSection>
 
             </SectionComponent>
-      </PageSection>
+    </PageSection>
+        </div>
+        
     )
 
 }
