@@ -37,7 +37,7 @@ const Resources = () => {
           <SectionComponent orientation="row" row>
 
               <ResourcesSection>
-                <Image src="/images/FlyOffKoji.png" alt="Money" width="auto" height="100px" marginTop="20px"/>
+                <Image src="images/FlyOffKoji.png" alt="Money" width="auto" height="100px" marginTop="20px"/>
                       <StyledP>
                         Build your first template
                       </StyledP>
@@ -45,7 +45,7 @@ const Resources = () => {
               </ResourcesSection>
 
               <ResourcesSection>
-                <Image src="/images/ExploreKoji.png" alt="Money" width="auto" height="100px" marginTop="20px"/>
+                <Image src="images/ExploreKoji.png" alt="Money" width="auto" height="100px" marginTop="20px"/>
                     <StyledP>
                       Explore a Koji project
                     </StyledP>
@@ -53,7 +53,7 @@ const Resources = () => {
               </ResourcesSection>
             
               <ResourcesSection>
-                <Image src="/images/CommunityKoji.png" alt="Money" width="auto" height="100px" marginTop="20px"/>
+                <Image src="images/CommunityKoji.png" alt="Money" width="auto" height="100px" marginTop="20px"/>
                   <StyledP>
                     Connect with the community
                   </StyledP>

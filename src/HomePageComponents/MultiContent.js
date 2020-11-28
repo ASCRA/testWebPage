@@ -32,12 +32,12 @@ const MultiContent = () => {
                     <StyledP><b>Make an impact</b><br/>Designers, content creators, brands, and influencers need custom templates. You empower these communities.</StyledP>
                 </MultiContentSection>
 
-                <Image src="/images/Bulb.png" alt="Bulb" width="80px"/>
+                <Image src="images/Bulb.png" alt="Bulb" width="80px"/>
                 <MultiContentSection>
                     <StyledP><b>Get noticed</b><br/>Milions of people remix your template and share their creations on social platforms like Facebook, Twitter, and Reddit.</StyledP>
                 </MultiContentSection>
 
-                <Image src="/images/Money.png" alt="Money" width="100px"/>
+                <Image src="images/Money.png" alt="Money" width="100px"/>
                 <MultiContentSection>
                     <StyledP><b>Make money</b><br/>Koji developers get paid through licensing, asset packs, and other compensation programs.</StyledP>
                 </MultiContentSection>
