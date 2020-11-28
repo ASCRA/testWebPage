@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+//import { Container, Divider } from '@material-ui/core';
+import styled from 'styled-components';
+import Banner from "./HomePageComponents/Banner"
+import SingleContent from "./HomePageComponents/SingleContent"
+import MultiContent from "./HomePageComponents/MultiContent"
+import Resources from "./HomePageComponents/Resources"
+import InteractiveContent from "./HomePageComponents/InteractiveContent"
+import Footer from "./HomePageComponents/Footer"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Banner />
+      <SingleContent />
+      <InteractiveContent />
+      <MultiContent />
+      <Resources />
+      <Footer />
     </div>
   );
 }
