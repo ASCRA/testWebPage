@@ -141,7 +141,7 @@ const ScaffoldsSection = () => {
   // })
 
   return(
-    <StyledImg src="/images/React.png"/>
+    <StyledImg src="images/React.png"/>
   )
 }
 
