@@ -24,7 +24,7 @@ const MultiContent = () => {
     return(
         <PageSection backColor="#111111" orientation="column">
             <SectionComponent orientation="row" row>
-            <h1 style={{color: "white", marginTop: 20, textAlign: "center"}}>Koji for developers</h1>
+            <h1 style={{color: "white", marginTop: 20, textAlign: "center", marginLeft: "5px"}}>Koji for developers</h1>
             </SectionComponent>
             <SectionComponent row>
 
