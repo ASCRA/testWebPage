@@ -152,7 +152,7 @@ const DiscordIcon = styled.img`
   const ContactFooterItems = [
     {
       id: 1,
-      icon: [<DiscordIcon src="/Images/discordIcon.png" />],
+      icon: [<DiscordIcon src="Images/discordIcon.png" />],
       name: "",
       link: "https://discord.com/invite/eQuMJF6"
     },
