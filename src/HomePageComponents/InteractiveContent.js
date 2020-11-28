@@ -132,14 +132,6 @@ const ScaffoldSectionItems = [
 ]
 
 const ScaffoldsSection = () => {
-  // const CarouselRef = useRef();
-
-  // const items = ScaffoldSectionItems.map((item) => {
-  //   return(
-  //     <Slide><StyledImg src={item} onClick={() => CarouselRef.current.slideNext()}/></Slide>
-  //   )
-  // })
-
   return(
     <StyledImg src="images/React.png"/>
   )

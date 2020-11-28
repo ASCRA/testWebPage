@@ -17,6 +17,10 @@ const MultiContentSection = styled.div`
 const StyledP = styled.p`
     text-align: center;
     width: 400px;
+    @media only screen and (max-width: 480px){
+        width: 300px;
+        height: auto;
+    };
 `;
 
 
